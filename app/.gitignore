@@ -1,0 +1,18 @@
+# Python (кэш-файлы и байт-код)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение (venv)
+.venv/
+venv/
+env/
+
+# Секреты и конфигурация (переменные окружения)
+.env
+.env.*
+!.env.example
+
+# Базы данных (если используется локальная SQLite)
+*.sqlite3
+*.sqlite3-journal
